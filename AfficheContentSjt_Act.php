@@ -1,5 +1,4 @@
 <?php
-
 require('config.php');
 
 if(isset($_GET['id']) AND !empty($_GET['id'])){
