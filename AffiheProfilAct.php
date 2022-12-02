@@ -1,5 +1,4 @@
 <?php
-
 require('config.php');
 
 //Récupérer l'identifiant de l'utilisateur
@@ -25,7 +24,6 @@ if(isset($_GET['idu']) AND !empty($_GET['idu'])){
     }else{
         $errorMsg = "Aucun utilisateur trouvé";
     }
-
 }else{
     $errorMsg = "Aucun utilisateur trouvé";
 }
